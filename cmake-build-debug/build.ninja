@@ -61,6 +61,12 @@ build CMakeFiles/Algorithm.dir/problem_25206.cpp.obj: CXX_COMPILER__Algorithm_De
   OBJECT_DIR = CMakeFiles\Algorithm.dir
   OBJECT_FILE_DIR = CMakeFiles\Algorithm.dir
 
+build CMakeFiles/Algorithm.dir/problem_2751.cpp.obj: CXX_COMPILER__Algorithm_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_2751.cpp || cmake_object_order_depends_target_Algorithm
+  DEP_FILE = CMakeFiles\Algorithm.dir\problem_2751.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Algorithm.dir
+  OBJECT_FILE_DIR = CMakeFiles\Algorithm.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Algorithm
@@ -69,7 +75,7 @@ build CMakeFiles/Algorithm.dir/problem_25206.cpp.obj: CXX_COMPILER__Algorithm_De
 #############################################
 # Link the executable Algorithm.exe
 
-build Algorithm.exe: CXX_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles/Algorithm.dir/main.cpp.obj CMakeFiles/Algorithm.dir/problem_25206.cpp.obj
+build Algorithm.exe: CXX_EXECUTABLE_LINKER__Algorithm_Debug CMakeFiles/Algorithm.dir/main.cpp.obj CMakeFiles/Algorithm.dir/problem_25206.cpp.obj CMakeFiles/Algorithm.dir/problem_2751.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Algorithm.dir
