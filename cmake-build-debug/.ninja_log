@@ -1,11 +1,7 @@
 # ninja log v5
-6	81	7009148496199685	CMakeFiles/Algorithm.dir/main.cpp.obj	ef6764f13dd4127f
-374	496	7009162528422155	Algorithm.exe	4b540c442d7f846e
-4	374	7009162527235131	CMakeFiles/Algorithm.dir/problem_25206.cpp.obj	13f1dbfa283c10cd
-12	130	7009740125905902	CMakeFiles/Algorithm.dir/problem_25206.cpp.obj	13f1dbfa283c10cd
-5	620	7009740130803890	CMakeFiles/Algorithm.dir/problem_2751.cpp.obj	615aa0293952e0a5
-620	929	7009740133847567	Algorithm.exe	f9c1247426d8cd00
-4	578	7009742305723245	CMakeFiles/Algorithm.dir/problem_2751.cpp.obj	615aa0293952e0a5
-580	704	7009742306939988	Algorithm.exe	f9c1247426d8cd00
-5	844	7009745318221593	CMakeFiles/Algorithm.dir/problem_2751.cpp.obj	615aa0293952e0a5
-848	1002	7009745319752458	Algorithm.exe	f9c1247426d8cd00
+0	98	7092802934709282	CMakeFiles/Algorithm.dir/main.cpp.obj	ef6764f13dd4127f
+7	555	7092802939267595	CMakeFiles/Algorithm.dir/problem_25206.cpp.obj	13f1dbfa283c10cd
+14	821	7092802941934431	CMakeFiles/Algorithm.dir/problem_2751.cpp.obj	615aa0293952e0a5
+21	506	7092802938778398	CMakeFiles/Algorithm.dir/problem_test.cpp.obj	ff81eed1708469fa
+0	369	7092812511012552	CMakeFiles/problem_test.dir/problem_test.cpp.obj	8bae44cc51efe0d2
+373	496	7092812512242564	problem_test.exe	ee7f74d7c38c3abd
