@@ -51,7 +51,25 @@ build cmake_object_order_depends_target_problem_25206: phony || CMakeFiles/probl
 
 build CMakeFiles/problem_25206.dir/problem_25206.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_25206.cpp || cmake_object_order_depends_target_problem_25206
   DEP_FILE = CMakeFiles\problem_25206.dir\problem_25206.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/problem_1700.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1700.cpp || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\problem_1700.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/problem_1806.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1806.cpp || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\problem_1806.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/problem_2933.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_2933.cpp || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\problem_2933.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
 
@@ -63,7 +81,7 @@ build CMakeFiles/problem_25206.dir/problem_25206.cpp.obj: CXX_COMPILER__problem_
 #############################################
 # Link the executable problem_25206.exe
 
-build problem_25206.exe: CXX_EXECUTABLE_LINKER__problem_25206_Debug CMakeFiles/problem_25206.dir/problem_25206.cpp.obj
+build problem_25206.exe: CXX_EXECUTABLE_LINKER__problem_25206_Debug CMakeFiles/problem_25206.dir/problem_25206.cpp.obj CMakeFiles/problem_25206.dir/problem_1700.cpp.obj CMakeFiles/problem_25206.dir/problem_1806.cpp.obj CMakeFiles/problem_25206.dir/problem_2933.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\problem_25206.dir
@@ -84,7 +102,7 @@ build cmake_object_order_depends_target_problem_2751: phony || CMakeFiles/proble
 
 build CMakeFiles/problem_2751.dir/problem_2751.cpp.obj: CXX_COMPILER__problem_2751_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_2751.cpp || cmake_object_order_depends_target_problem_2751
   DEP_FILE = CMakeFiles\problem_2751.dir\problem_2751.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
   OBJECT_DIR = CMakeFiles\problem_2751.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_2751.dir
 
@@ -117,7 +135,7 @@ build cmake_object_order_depends_target_problem_test: phony || CMakeFiles/proble
 
 build CMakeFiles/problem_test.dir/problem_test.cpp.obj: CXX_COMPILER__problem_test_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_test.cpp || cmake_object_order_depends_target_problem_test
   DEP_FILE = CMakeFiles\problem_test.dir\problem_test.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
   OBJECT_DIR = CMakeFiles\problem_test.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_test.dir
 
@@ -138,6 +156,138 @@ build problem_test.exe: CXX_EXECUTABLE_LINKER__problem_test_Debug CMakeFiles/pro
   TARGET_FILE = problem_test.exe
   TARGET_IMPLIB = libproblem_test.dll.a
   TARGET_PDB = problem_test.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem_1700
+
+
+#############################################
+# Order-only phony target for problem_1700
+
+build cmake_object_order_depends_target_problem_1700: phony || CMakeFiles/problem_1700.dir
+
+build CMakeFiles/problem_1700.dir/problem_1700.cpp.obj: CXX_COMPILER__problem_1700_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1700.cpp || cmake_object_order_depends_target_problem_1700
+  DEP_FILE = CMakeFiles\problem_1700.dir\problem_1700.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  OBJECT_DIR = CMakeFiles\problem_1700.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_1700.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem_1700
+
+
+#############################################
+# Link the executable problem_1700.exe
+
+build problem_1700.exe: CXX_EXECUTABLE_LINKER__problem_1700_Debug CMakeFiles/problem_1700.dir/problem_1700.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem_1700.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem_1700.exe
+  TARGET_IMPLIB = libproblem_1700.dll.a
+  TARGET_PDB = problem_1700.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem_1806
+
+
+#############################################
+# Order-only phony target for problem_1806
+
+build cmake_object_order_depends_target_problem_1806: phony || CMakeFiles/problem_1806.dir
+
+build CMakeFiles/problem_1806.dir/problem_1806.cpp.obj: CXX_COMPILER__problem_1806_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1806.cpp || cmake_object_order_depends_target_problem_1806
+  DEP_FILE = CMakeFiles\problem_1806.dir\problem_1806.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  OBJECT_DIR = CMakeFiles\problem_1806.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_1806.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem_1806
+
+
+#############################################
+# Link the executable problem_1806.exe
+
+build problem_1806.exe: CXX_EXECUTABLE_LINKER__problem_1806_Debug CMakeFiles/problem_1806.dir/problem_1806.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem_1806.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem_1806.exe
+  TARGET_IMPLIB = libproblem_1806.dll.a
+  TARGET_PDB = problem_1806.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem_1181
+
+
+#############################################
+# Order-only phony target for problem_1181
+
+build cmake_object_order_depends_target_problem_1181: phony || CMakeFiles/problem_1181.dir
+
+build CMakeFiles/problem_1181.dir/problem_1181.cpp.obj: CXX_COMPILER__problem_1181_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1181.cpp || cmake_object_order_depends_target_problem_1181
+  DEP_FILE = CMakeFiles\problem_1181.dir\problem_1181.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  OBJECT_DIR = CMakeFiles\problem_1181.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_1181.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem_1181
+
+
+#############################################
+# Link the executable problem_1181.exe
+
+build problem_1181.exe: CXX_EXECUTABLE_LINKER__problem_1181_Debug CMakeFiles/problem_1181.dir/problem_1181.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem_1181.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem_1181.exe
+  TARGET_IMPLIB = libproblem_1181.dll.a
+  TARGET_PDB = problem_1181.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem_2933
+
+
+#############################################
+# Order-only phony target for problem_2933
+
+build cmake_object_order_depends_target_problem_2933: phony || CMakeFiles/problem_2933.dir
+
+build CMakeFiles/problem_2933.dir/problem_2933.cpp.obj: CXX_COMPILER__problem_2933_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_2933.cpp || cmake_object_order_depends_target_problem_2933
+  DEP_FILE = CMakeFiles\problem_2933.dir\problem_2933.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  OBJECT_DIR = CMakeFiles\problem_2933.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_2933.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem_2933
+
+
+#############################################
+# Link the executable problem_2933.exe
+
+build problem_2933.exe: CXX_EXECUTABLE_LINKER__problem_2933_Debug CMakeFiles/problem_2933.dir/problem_2933.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem_2933.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem_2933.exe
+  TARGET_IMPLIB = libproblem_2933.dll.a
+  TARGET_PDB = problem_2933.exe.dbg
 
 
 #############################################
@@ -165,9 +315,17 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build problem_1181: phony problem_1181.exe
+
+build problem_1700: phony problem_1700.exe
+
+build problem_1806: phony problem_1806.exe
+
 build problem_25206: phony problem_25206.exe
 
 build problem_2751: phony problem_2751.exe
+
+build problem_2933: phony problem_2933.exe
 
 build problem_test: phony problem_test.exe
 
@@ -179,7 +337,7 @@ build problem_test: phony problem_test.exe
 #############################################
 # Folder: C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug
 
-build all: phony problem_25206.exe problem_2751.exe problem_test.exe
+build all: phony problem_25206.exe problem_2751.exe problem_test.exe problem_1700.exe problem_1806.exe problem_1181.exe problem_2933.exe
 
 # =============================================================================
 # Built-in targets

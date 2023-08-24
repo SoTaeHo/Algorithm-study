@@ -5,9 +5,7 @@
 using namespace std;
 
 int main(void) {
-    int n;
-    int k;
-    int count = 0;
+    int n, k, count = 0;
     cin >> n >> k;
 
     int* arr_k = new int[k];
