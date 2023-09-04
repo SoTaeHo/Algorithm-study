@@ -1,7 +1,6 @@
 #include "iostream"
 #include "vector"
 #include "algorithm"
-
 using namespace std;
 
 int dx[] = {-1, 1, 0, 0};
@@ -21,7 +20,7 @@ bool find_pair(vector <pair <int, int>> arr, pair <int, int> p) {
         return false;
 }
 
-int get_diff(int r, int c) {
+int get_diff(char **arr, int r, int c) {
     int max = 0;
     bool stop = true;
 
@@ -33,7 +32,8 @@ int get_diff(int r, int c) {
 
     while (stop) {
         for (vector<pair<int, int>>::iterator ptr = temp.begin(); ptr != temp.end(); ptr++) {
-            if (is_valid(ptr->first + max, ptr->second, r, c) && !find_pair(temp, make_pair(ptr->first + max, ptr->second)))
+            if (is_valid(ptr->first + max, ptr->second, r, c) && !find_pair(temp, make_pair(ptr->first + max, ptr->second))
+             && (arr[ptr->first + max][ptr->second] == 'x' || ptr->first + max == r - 1))
             {
                 stop = false;
             }
@@ -49,7 +49,7 @@ bool find_cluster(char **arr, int row, int col, int r, int c) {
 
     int nx;
     int ny;
-    if (!is_valid(row, col, r, c) || arr[row][col] == '.' || row > r - 1 || visited[col][row]) {
+    if (!is_valid(row, col, r, c) || arr[row][col] == '.' || visited[row][col]) {
         return false;
     }
     visited[row][col] = true;
@@ -58,7 +58,6 @@ bool find_cluster(char **arr, int row, int col, int r, int c) {
     for (int i = 0; i < 4; i++) {
         nx = row + dx[i];
         ny = col + dy[i];
-        cout << "nx : " << nx << " / ny : " << ny << '\n';
         if (is_valid(nx, ny, r, c)) {
             if (!visited[nx][ny] && arr[nx][ny] == 'x') {
                 find_cluster(arr, nx, ny, r, c);
@@ -87,8 +86,7 @@ void combine_cluster(char **arr, int r, int c) {
     for (int i = 0; i < r; i++) {
         for (int j = 0; j < c; j++) {
                 if (arr[i][j] == 'x' && find_cluster(arr, i, j, r, c)) {
-                    int diff = get_diff(r, c);
-                    cout << diff << '\n';
+                    int diff = get_diff(arr, r, c);
 //                  for (auto & ptr : temp) {
                     if (diff) {
 
@@ -123,7 +121,7 @@ int main(void) {
 
     char **map = new char *[r];
 
-    for (int i = 0; i < c; i++)
+    for (int i = 0; i < r; i++)
         map[i] = new char[c];
 
     for (int i = 0; i < r; i++) {
@@ -133,9 +131,9 @@ int main(void) {
         }
     }
 
-    for (int ia = 0; ia < r; ia++) {
-        for (int ja = 0; ja < c; ja++) {
-            cout << map[ia][ja];
+    for (int i = 0; i < r; i++) {
+        for (int j = 0; j < c; j++) {
+            cout << map[i][j];
         }
         cout << '\n';
     }
