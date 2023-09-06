@@ -24,18 +24,14 @@ int get_diff(char **arr, int r, int c) {
     int max = 0;
     bool stop = true;
 
-    for (vector<pair<int, int>>::iterator ptr = temp.begin(); ptr != temp.end(); ptr++) {
-        if (ptr->first == r - 1) {
-            return 0;
-        }
-    }
-
     while (stop) {
         for (vector<pair<int, int>>::iterator ptr = temp.begin(); ptr != temp.end(); ptr++) {
             if (is_valid(ptr->first + max, ptr->second, r, c) && !find_pair(temp, make_pair(ptr->first + max, ptr->second))
              && (arr[ptr->first + max][ptr->second] == 'x' || ptr->first + max == r - 1))
             {
                 stop = false;
+                if (arr[ptr->first + max][ptr->second] == 'x')
+                    max--;
             }
         }
         if (stop) {
@@ -69,12 +65,7 @@ bool find_cluster(char **arr, int row, int col, int r, int c) {
 
 void combine_cluster(char **arr, int r, int c) {
 
-    for (int i = 0; i < r; i++) {
-        for (int j = 0; j < c; j++) {
-            cout << arr[i][j];
-        }
-        cout << '\n';
-    }
+
     for (int i = 0; i < r; i++) {
         vector<bool> vec;
         visited.push_back(vec);
@@ -85,15 +76,20 @@ void combine_cluster(char **arr, int r, int c) {
 
     for (int i = 0; i < r; i++) {
         for (int j = 0; j < c; j++) {
-                if (arr[i][j] == 'x' && find_cluster(arr, i, j, r, c)) {
+                if (!visited[i][j] && arr[i][j] == 'x' && find_cluster(arr, i, j, r, c)) {
+                    bool bottom = false;
+                    cout << "pass";
+                    for (vector<pair<int, int>>::iterator ptr = temp.begin(); ptr != temp.end(); ptr++) {
+                        if (ptr->first == r - 1) {
+                            temp = {};
+                            bottom = true;
+                        }
+                    }
+                    if (bottom)
+                        continue;
                     int diff = get_diff(arr, r, c);
 //                  for (auto & ptr : temp) {
                     if (diff) {
-
-                        for (auto & ptr : temp) {
-                            cout << "ptr : " << ptr.first << " " << ptr.second << '\n';
-                        }
-
                         for (vector<pair<int, int>>::iterator ptr = temp.begin(); ptr != temp.end(); ptr++) {
                             arr[ptr->first][ptr->second] = '.';
                         }
@@ -101,10 +97,10 @@ void combine_cluster(char **arr, int r, int c) {
                             arr[ptr->first + diff][ptr->second] = 'x';
                         }
                     }
+                    for (vector<vector<bool>>::iterator ptr = visited.begin(); ptr != visited.end(); ptr++) {
+                        fill(ptr->begin(), ptr->end(), false);
+                        temp = {};
                 }
-            for (vector<vector<bool>>::iterator ptr = visited.begin(); ptr != visited.end(); ptr++) {
-                fill(ptr->begin(), ptr->end(), false);
-            temp = {};
             }
         }
     }
@@ -131,14 +127,6 @@ int main(void) {
         }
     }
 
-    for (int i = 0; i < r; i++) {
-        for (int j = 0; j < c; j++) {
-            cout << map[i][j];
-        }
-        cout << '\n';
-    }
-    cout << "before combine\n";
-
     // combine cluster
     combine_cluster(map, r, c);
 
@@ -160,12 +148,6 @@ int main(void) {
             }
         }
 
-        for (int ia = 0; ia < r; ia++) {
-            for (int ja = 0; ja < c; ja++) {
-                cout << map[ia][ja];
-            }
-            cout << '\n';
-        }
     }
 
     for (int ia = 0; ia < r; ia++) {

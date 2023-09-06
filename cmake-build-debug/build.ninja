@@ -51,25 +51,25 @@ build cmake_object_order_depends_target_problem_25206: phony || CMakeFiles/probl
 
 build CMakeFiles/problem_25206.dir/problem_25206.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_25206.cpp || cmake_object_order_depends_target_problem_25206
   DEP_FILE = CMakeFiles\problem_25206.dir\problem_25206.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
 
 build CMakeFiles/problem_25206.dir/problem_1700.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1700.cpp || cmake_object_order_depends_target_problem_25206
   DEP_FILE = CMakeFiles\problem_25206.dir\problem_1700.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
 
 build CMakeFiles/problem_25206.dir/problem_1806.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1806.cpp || cmake_object_order_depends_target_problem_25206
   DEP_FILE = CMakeFiles\problem_25206.dir\problem_1806.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
 
 build CMakeFiles/problem_25206.dir/problem_2933.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_2933.cpp || cmake_object_order_depends_target_problem_25206
   DEP_FILE = CMakeFiles\problem_25206.dir\problem_2933.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
 
@@ -102,7 +102,7 @@ build cmake_object_order_depends_target_problem_2751: phony || CMakeFiles/proble
 
 build CMakeFiles/problem_2751.dir/problem_2751.cpp.obj: CXX_COMPILER__problem_2751_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_2751.cpp || cmake_object_order_depends_target_problem_2751
   DEP_FILE = CMakeFiles\problem_2751.dir\problem_2751.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_2751.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_2751.dir
 
@@ -135,7 +135,7 @@ build cmake_object_order_depends_target_problem_test: phony || CMakeFiles/proble
 
 build CMakeFiles/problem_test.dir/problem_test.cpp.obj: CXX_COMPILER__problem_test_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_test.cpp || cmake_object_order_depends_target_problem_test
   DEP_FILE = CMakeFiles\problem_test.dir\problem_test.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_test.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_test.dir
 
@@ -168,7 +168,7 @@ build cmake_object_order_depends_target_problem_1700: phony || CMakeFiles/proble
 
 build CMakeFiles/problem_1700.dir/problem_1700.cpp.obj: CXX_COMPILER__problem_1700_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1700.cpp || cmake_object_order_depends_target_problem_1700
   DEP_FILE = CMakeFiles\problem_1700.dir\problem_1700.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_1700.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_1700.dir
 
@@ -201,7 +201,7 @@ build cmake_object_order_depends_target_problem_1806: phony || CMakeFiles/proble
 
 build CMakeFiles/problem_1806.dir/problem_1806.cpp.obj: CXX_COMPILER__problem_1806_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1806.cpp || cmake_object_order_depends_target_problem_1806
   DEP_FILE = CMakeFiles\problem_1806.dir\problem_1806.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_1806.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_1806.dir
 
@@ -234,7 +234,7 @@ build cmake_object_order_depends_target_problem_1181: phony || CMakeFiles/proble
 
 build CMakeFiles/problem_1181.dir/problem_1181.cpp.obj: CXX_COMPILER__problem_1181_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1181.cpp || cmake_object_order_depends_target_problem_1181
   DEP_FILE = CMakeFiles\problem_1181.dir\problem_1181.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_1181.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_1181.dir
 
@@ -267,7 +267,7 @@ build cmake_object_order_depends_target_problem_2933: phony || CMakeFiles/proble
 
 build CMakeFiles/problem_2933.dir/problem_2933.cpp.obj: CXX_COMPILER__problem_2933_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_2933.cpp || cmake_object_order_depends_target_problem_2933
   DEP_FILE = CMakeFiles\problem_2933.dir\problem_2933.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Werror
+  FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_2933.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_2933.dir
 
