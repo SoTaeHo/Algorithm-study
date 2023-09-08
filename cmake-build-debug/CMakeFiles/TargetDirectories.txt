@@ -5,5 +5,6 @@ C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_17
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_1806.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_1181.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_2933.dir
+C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_7576_bfs.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
