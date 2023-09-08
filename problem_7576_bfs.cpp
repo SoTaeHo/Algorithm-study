@@ -35,7 +35,6 @@ void bfs(vector<vector<int>> box, queue<pair<int, int>> &q) {
                 cout << -1;
                 return ;
             }
-
             if (result < box[i][j]) {
                 result = box[i][j];
             }
@@ -48,12 +47,10 @@ int main(void) {
     int m;
     int n;
     int status;
-
     queue<pair<int, int>> q;
     vector<vector<int>> box;
 
     cin >> m >> n;
-
 
     for (int i = 0; i < n; i++) {
         vector<int> vec;
