@@ -79,6 +79,12 @@ build CMakeFiles/problem_25206.dir/problem_7576_bfs.cpp.obj: CXX_COMPILER__probl
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
 
+build CMakeFiles/problem_25206.dir/problem_1012.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1012.cpp || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\problem_1012.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target problem_25206
@@ -87,7 +93,7 @@ build CMakeFiles/problem_25206.dir/problem_7576_bfs.cpp.obj: CXX_COMPILER__probl
 #############################################
 # Link the executable problem_25206.exe
 
-build problem_25206.exe: CXX_EXECUTABLE_LINKER__problem_25206_Debug CMakeFiles/problem_25206.dir/problem_25206.cpp.obj CMakeFiles/problem_25206.dir/problem_1700.cpp.obj CMakeFiles/problem_25206.dir/problem_1806.cpp.obj CMakeFiles/problem_25206.dir/problem_2933.cpp.obj CMakeFiles/problem_25206.dir/problem_7576_bfs.cpp.obj
+build problem_25206.exe: CXX_EXECUTABLE_LINKER__problem_25206_Debug CMakeFiles/problem_25206.dir/problem_25206.cpp.obj CMakeFiles/problem_25206.dir/problem_1700.cpp.obj CMakeFiles/problem_25206.dir/problem_1806.cpp.obj CMakeFiles/problem_25206.dir/problem_2933.cpp.obj CMakeFiles/problem_25206.dir/problem_7576_bfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1012.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\problem_25206.dir
@@ -328,6 +334,39 @@ build problem_7576_bfs.exe: CXX_EXECUTABLE_LINKER__problem_7576_bfs_Debug CMakeF
   TARGET_IMPLIB = libproblem_7576_bfs.dll.a
   TARGET_PDB = problem_7576_bfs.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target problem_1012
+
+
+#############################################
+# Order-only phony target for problem_1012
+
+build cmake_object_order_depends_target_problem_1012: phony || CMakeFiles/problem_1012.dir
+
+build CMakeFiles/problem_1012.dir/problem_1012.cpp.obj: CXX_COMPILER__problem_1012_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1012.cpp || cmake_object_order_depends_target_problem_1012
+  DEP_FILE = CMakeFiles\problem_1012.dir\problem_1012.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_1012.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_1012.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem_1012
+
+
+#############################################
+# Link the executable problem_1012.exe
+
+build problem_1012.exe: CXX_EXECUTABLE_LINKER__problem_1012_Debug CMakeFiles/problem_1012.dir/problem_1012.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem_1012.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem_1012.exe
+  TARGET_IMPLIB = libproblem_1012.dll.a
+  TARGET_PDB = problem_1012.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -354,6 +393,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build problem_1012: phony problem_1012.exe
+
 build problem_1181: phony problem_1181.exe
 
 build problem_1700: phony problem_1700.exe
@@ -378,7 +419,7 @@ build problem_test: phony problem_test.exe
 #############################################
 # Folder: C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug
 
-build all: phony problem_25206.exe problem_2751.exe problem_test.exe problem_1700.exe problem_1806.exe problem_1181.exe problem_2933.exe problem_7576_bfs.exe
+build all: phony problem_25206.exe problem_2751.exe problem_test.exe problem_1700.exe problem_1806.exe problem_1181.exe problem_2933.exe problem_7576_bfs.exe problem_1012.exe
 
 # =============================================================================
 # Built-in targets
