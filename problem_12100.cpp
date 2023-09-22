@@ -5,35 +5,107 @@ using namespace std;
 
 typedef vector< vector<int> > dv;
 
-vector<int> value(512, 0);
+vector<int> value(1024, 0);
 
 int dx[] = {-1,1, 0, 0};
 int dy[] = {0, 0, -1,1};
 
 dv move_tile(int direction, dv &map) {
-    // up : ji/j++ down : ji/j-- left : ij/j-- right : ij/j++
+    // up : ji/j++ down : ji/j-- left : ij/j++ right : ij/j--
     pair<int, int> p = make_pair(0, 0);
-    for(int i = 0; i < map.size(); i++) {
-        int val = 0;
-        vector<int> temp;
-        for(int j = 0; j < map.size(); j++) {
-            if (map[j][i] != val && map[j][i] != 0) {
-                val = map[j][i];
-                p.first = j;
-                p.second = i;
-                map[j][i] = 0;
-                temp.push_back(val);
-            } else if (map[j][i] == val && map[j][i] != 0) {
-                temp[temp.size() - 1] *= 2;
-                map[j][i] = 0;
-                val = 0;
+    if (direction == 0) {
+        for(int i = 0; i < map.size(); i++) {
+            int val = 0;
+            vector<int> temp;
+            for(int j = 0; j < map.size(); j++) {
+                if (map[j][i] != val && map[j][i] != 0) {
+                    val = map[j][i];
+                    p.first = j;
+                    p.second = i;
+                    map[j][i] = 0;
+                    temp.push_back(val);
+                } else if (map[j][i] == val && map[j][i] != 0) {
+                    temp[temp.size() - 1] *= 2;
+                    map[j][i] = 0;
+                    val = 0;
+                }
+            }
+            for (int j = 0; j < temp.size(); j++) {
+                map[j][i] = temp[j];
             }
         }
-        for (int j = 0; j < temp.size(); j++) {
-            map[j][i] = temp[j];
+
+    } else if (direction == 1) {
+        for (int i = 0; i < map.size(); i++) {
+            int val = 0;
+            vector<int> temp;
+            for (int j = map.size() - 1; j >= 0; j--) {
+                if (map[j][i] != val && map[j][i] != 0) {
+                    val = map[j][i];
+                    p.first = j;
+                    p.second = i;
+                    map[j][i] = 0;
+                    temp.push_back(val);
+                } else if (map[j][i] == val && map[j][i] != 0) {
+                    temp[temp.size() - 1] *= 2;
+                    map[j][i] = 0;
+                    val = 0;
+                }
+            }
+            for (int j = 0; j < temp.size(); j++) {
+                map[map.size() - j - 1][i] = temp[j];
+            }
+        }
+    } else if (direction == 2) {
+        for(int i = 0; i < map.size(); i++) {
+            int val = 0;
+            vector<int> temp;
+            for(int j = 0; j < map.size(); j++) {
+                if (map[i][j] != val && map[i][j] != 0) {
+                    val = map[i][j];
+                    p.first = i;
+                    p.second = j;
+                    map[i][j] = 0;
+                    temp.push_back(val);
+                } else if (map[i][j] == val && map[i][j] != 0) {
+                    temp[temp.size() - 1] *= 2;
+                    map[i][j] = 0;
+                    val = 0;
+                }
+            }
+            for (int j = 0; j < temp.size(); j++) {
+                map[i][j] = temp[j];
+            }
+        }
+    } else if (direction == 3) {
+        for(int i = 0; i < map.size(); i++) {
+            int val = 0;
+            vector<int> temp;
+            for(int j = map.size() - 1; j >= 0; j--) {
+                if (map[i][j] != val && map[i][j] != 0) {
+                    val = map[i][j];
+                    p.first = i;
+                    p.second = j;
+                    map[i][j] = 0;
+                    temp.push_back(val);
+                } else if (map[i][j] == val && map[i][j] != 0) {
+                    temp[temp.size() - 1] *= 2;
+                    map[i][j] = 0;
+                    val = 0;
+                }
+            }
+            for (int j = 0; j < temp.size(); j++) {
+                map[i][map.size() - j - 1] = temp[j];
+            }
         }
     }
-
+//    for (auto & ptr : map) {
+//        for (auto & p : ptr) {
+//            cout << p << ' ';
+//        }
+//        cout << '\n';
+//    }
+//    cout << '\n';
     return map;
 }
 
@@ -46,15 +118,17 @@ int shift_value(int order, dv map) {
     }
     for (auto & ptr : map) {
         for (auto & p : ptr) {
-            if (max_value < p)
+            if (max_value < p) {
                 max_value = p;
+            }
         }
     }
     return max_value;
 }
 int main(void) {
     int n;
-    unsigned int order = 0;
+    unsigned int order = 0b0;
+    int sum_value = 0;
     dv map;
 
     cin >> n;
@@ -64,13 +138,22 @@ int main(void) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             cin >> map[i][j];
+            sum_value += map[i][j];
         }
     }
 
-    while (order != 512) {
+//    value[0] = shift_value(610, map);
+
+    while (order != 1024) {
         value[order] = shift_value(order, map);
+        if (value[order] == sum_value)
+            break;
         order++;
     }
+//    for (auto & ptr : value) {
+//        if (ptr == 2048)
+//            cout << "found";
+//    }
     cout << *max_element(value.begin(), value.end());
     // 총 4^5 : 512 가지의 경우의 수
     // 합친 후 제일 크다고 최대 5번 움직였을 때 제일 큰 경우는 아님
