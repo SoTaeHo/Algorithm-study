@@ -115,8 +115,14 @@ build CMakeFiles/problem_25206.dir/problem_14499.cpp.obj: CXX_COMPILER__problem_
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
 
-build CMakeFiles/problem_25206.dir/problem_14500.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_14500.cpp || cmake_object_order_depends_target_problem_25206
-  DEP_FILE = CMakeFiles\problem_25206.dir\problem_14500.cpp.obj.d
+build CMakeFiles/problem_25206.dir/problem_14500_dfs.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_14500_dfs.cpp || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\problem_14500_dfs.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/problem_1753_dijkstra.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1753_dijkstra.cpp || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\problem_1753_dijkstra.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
@@ -129,7 +135,7 @@ build CMakeFiles/problem_25206.dir/problem_14500.cpp.obj: CXX_COMPILER__problem_
 #############################################
 # Link the executable problem_25206.exe
 
-build problem_25206.exe: CXX_EXECUTABLE_LINKER__problem_25206_Debug CMakeFiles/problem_25206.dir/problem_25206.cpp.obj CMakeFiles/problem_25206.dir/problem_1700.cpp.obj CMakeFiles/problem_25206.dir/problem_1806.cpp.obj CMakeFiles/problem_25206.dir/problem_2933.cpp.obj CMakeFiles/problem_25206.dir/problem_7576_bfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1012.cpp.obj CMakeFiles/problem_25206.dir/problem_13460.cpp.obj CMakeFiles/problem_25206.dir/problem_12100.cpp.obj CMakeFiles/problem_25206.dir/problem_3190.cpp.obj CMakeFiles/problem_25206.dir/problem_13458.cpp.obj CMakeFiles/problem_25206.dir/problem_14499.cpp.obj CMakeFiles/problem_25206.dir/problem_14500.cpp.obj
+build problem_25206.exe: CXX_EXECUTABLE_LINKER__problem_25206_Debug CMakeFiles/problem_25206.dir/problem_25206.cpp.obj CMakeFiles/problem_25206.dir/problem_1700.cpp.obj CMakeFiles/problem_25206.dir/problem_1806.cpp.obj CMakeFiles/problem_25206.dir/problem_2933.cpp.obj CMakeFiles/problem_25206.dir/problem_7576_bfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1012.cpp.obj CMakeFiles/problem_25206.dir/problem_13460.cpp.obj CMakeFiles/problem_25206.dir/problem_12100.cpp.obj CMakeFiles/problem_25206.dir/problem_3190.cpp.obj CMakeFiles/problem_25206.dir/problem_13458.cpp.obj CMakeFiles/problem_25206.dir/problem_14499.cpp.obj CMakeFiles/problem_25206.dir/problem_14500_dfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1753_dijkstra.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\problem_25206.dir
@@ -577,8 +583,8 @@ build problem_14499.exe: CXX_EXECUTABLE_LINKER__problem_14499_Debug CMakeFiles/p
 
 build cmake_object_order_depends_target_problem_14500: phony || CMakeFiles/problem_14500.dir
 
-build CMakeFiles/problem_14500.dir/problem_14500.cpp.obj: CXX_COMPILER__problem_14500_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_14500.cpp || cmake_object_order_depends_target_problem_14500
-  DEP_FILE = CMakeFiles\problem_14500.dir\problem_14500.cpp.obj.d
+build CMakeFiles/problem_14500.dir/problem_14500_dfs.cpp.obj: CXX_COMPILER__problem_14500_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_14500_dfs.cpp || cmake_object_order_depends_target_problem_14500
+  DEP_FILE = CMakeFiles\problem_14500.dir\problem_14500_dfs.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_14500.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_14500.dir
@@ -591,7 +597,7 @@ build CMakeFiles/problem_14500.dir/problem_14500.cpp.obj: CXX_COMPILER__problem_
 #############################################
 # Link the executable problem_14500.exe
 
-build problem_14500.exe: CXX_EXECUTABLE_LINKER__problem_14500_Debug CMakeFiles/problem_14500.dir/problem_14500.cpp.obj
+build problem_14500.exe: CXX_EXECUTABLE_LINKER__problem_14500_Debug CMakeFiles/problem_14500.dir/problem_14500_dfs.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\problem_14500.dir
@@ -600,6 +606,39 @@ build problem_14500.exe: CXX_EXECUTABLE_LINKER__problem_14500_Debug CMakeFiles/p
   TARGET_FILE = problem_14500.exe
   TARGET_IMPLIB = libproblem_14500.dll.a
   TARGET_PDB = problem_14500.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem_1753_dijkstra
+
+
+#############################################
+# Order-only phony target for problem_1753_dijkstra
+
+build cmake_object_order_depends_target_problem_1753_dijkstra: phony || CMakeFiles/problem_1753_dijkstra.dir
+
+build CMakeFiles/problem_1753_dijkstra.dir/problem_1753_dijkstra.cpp.obj: CXX_COMPILER__problem_1753_dijkstra_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_1753_dijkstra.cpp || cmake_object_order_depends_target_problem_1753_dijkstra
+  DEP_FILE = CMakeFiles\problem_1753_dijkstra.dir\problem_1753_dijkstra.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_1753_dijkstra.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_1753_dijkstra.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem_1753_dijkstra
+
+
+#############################################
+# Link the executable problem_1753_dijkstra.exe
+
+build problem_1753_dijkstra.exe: CXX_EXECUTABLE_LINKER__problem_1753_dijkstra_Debug CMakeFiles/problem_1753_dijkstra.dir/problem_1753_dijkstra.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem_1753_dijkstra.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem_1753_dijkstra.exe
+  TARGET_IMPLIB = libproblem_1753_dijkstra.dll.a
+  TARGET_PDB = problem_1753_dijkstra.exe.dbg
 
 
 #############################################
@@ -643,6 +682,8 @@ build problem_14500: phony problem_14500.exe
 
 build problem_1700: phony problem_1700.exe
 
+build problem_1753_dijkstra: phony problem_1753_dijkstra.exe
+
 build problem_1806: phony problem_1806.exe
 
 build problem_25206: phony problem_25206.exe
@@ -665,7 +706,7 @@ build problem_test: phony problem_test.exe
 #############################################
 # Folder: C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug
 
-build all: phony problem_25206.exe problem_2751.exe problem_test.exe problem_1700.exe problem_1806.exe problem_1181.exe problem_2933.exe problem_7576_bfs.exe problem_1012.exe problem_13460.exe problem_12100.exe problem_3190.exe problem_13458.exe problem_14499.exe problem_14500.exe
+build all: phony problem_25206.exe problem_2751.exe problem_test.exe problem_1700.exe problem_1806.exe problem_1181.exe problem_2933.exe problem_7576_bfs.exe problem_1012.exe problem_13460.exe problem_12100.exe problem_3190.exe problem_13458.exe problem_14499.exe problem_14500.exe problem_1753_dijkstra.exe
 
 # =============================================================================
 # Built-in targets
