@@ -1,4 +1,4 @@
-"C:\new\CLion 2022.3.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/new/CLion 2022.3.1/bin/ninja/win/ninja.exe" -G Ninja -S C:\Users\kacelab\CLionProjects\Algorithm -B C:\Users\kacelab\CLionProjects\Algorithm\cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S C:\Users\sth90\CLionProjects\Algorithm-study -B C:\Users\sth90\CLionProjects\Algorithm-study\cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug
+-- Build files have been written to: C:/Users/sth90/CLionProjects/Algorithm-study/cmake-build-debug
