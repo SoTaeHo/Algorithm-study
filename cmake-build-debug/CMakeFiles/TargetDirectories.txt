@@ -20,5 +20,6 @@ C:/Users/sth90/CLionProjects/Algorithm-study/cmake-build-debug/CMakeFiles/proble
 C:/Users/sth90/CLionProjects/Algorithm-study/cmake-build-debug/CMakeFiles/problem_14503.dir
 C:/Users/sth90/CLionProjects/Algorithm-study/cmake-build-debug/CMakeFiles/problem_14888.dir
 C:/Users/sth90/CLionProjects/Algorithm-study/cmake-build-debug/CMakeFiles/problem_14889.dir
+C:/Users/sth90/CLionProjects/Algorithm-study/cmake-build-debug/CMakeFiles/problem_14890.dir
 C:/Users/sth90/CLionProjects/Algorithm-study/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/sth90/CLionProjects/Algorithm-study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
