@@ -51,7 +51,6 @@ void loop(int idx, int cnt) {
             link[j][i] = false;
         }
     }
-
 }
 
 int main() {
