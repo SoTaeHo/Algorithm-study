@@ -145,8 +145,8 @@ build CMakeFiles/problem_25206.dir/problem_15683_simulation.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
 
-build CMakeFiles/problem_25206.dir/problem_15684.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_15684.cpp || cmake_object_order_depends_target_problem_25206
-  DEP_FILE = CMakeFiles\problem_25206.dir\problem_15684.cpp.obj.d
+build CMakeFiles/problem_25206.dir/problem_15684_dfs.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_15684_dfs.cpp || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\problem_15684_dfs.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
@@ -163,6 +163,18 @@ build CMakeFiles/problem_25206.dir/lecture.c.obj: C_COMPILER__problem_25206_Debu
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
 
+build CMakeFiles/problem_25206.dir/assignment2.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment2.c || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\assignment2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/problem_11724_dfs.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_11724_dfs.cpp || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\problem_11724_dfs.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target problem_25206
@@ -171,7 +183,7 @@ build CMakeFiles/problem_25206.dir/lecture.c.obj: C_COMPILER__problem_25206_Debu
 #############################################
 # Link the executable problem_25206.exe
 
-build problem_25206.exe: CXX_EXECUTABLE_LINKER__problem_25206_Debug CMakeFiles/problem_25206.dir/problem_25206.cpp.obj CMakeFiles/problem_25206.dir/problem_1700.cpp.obj CMakeFiles/problem_25206.dir/problem_1806.cpp.obj CMakeFiles/problem_25206.dir/problem_2933.cpp.obj CMakeFiles/problem_25206.dir/problem_7576_bfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1012.cpp.obj CMakeFiles/problem_25206.dir/problem_13460.cpp.obj CMakeFiles/problem_25206.dir/problem_12100.cpp.obj CMakeFiles/problem_25206.dir/problem_3190.cpp.obj CMakeFiles/problem_25206.dir/problem_13458.cpp.obj CMakeFiles/problem_25206.dir/problem_14499.cpp.obj CMakeFiles/problem_25206.dir/problem_14500_dfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1753_dijkstra.cpp.obj CMakeFiles/problem_25206.dir/problem_14501_dp.cpp.obj CMakeFiles/problem_25206.dir/problem_9095_dp.cpp.obj CMakeFiles/problem_25206.dir/problem_15683_simulation.cpp.obj CMakeFiles/problem_25206.dir/problem_15684.cpp.obj CMakeFiles/problem_25206.dir/assignment1.c.obj CMakeFiles/problem_25206.dir/lecture.c.obj
+build problem_25206.exe: CXX_EXECUTABLE_LINKER__problem_25206_Debug CMakeFiles/problem_25206.dir/problem_25206.cpp.obj CMakeFiles/problem_25206.dir/problem_1700.cpp.obj CMakeFiles/problem_25206.dir/problem_1806.cpp.obj CMakeFiles/problem_25206.dir/problem_2933.cpp.obj CMakeFiles/problem_25206.dir/problem_7576_bfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1012.cpp.obj CMakeFiles/problem_25206.dir/problem_13460.cpp.obj CMakeFiles/problem_25206.dir/problem_12100.cpp.obj CMakeFiles/problem_25206.dir/problem_3190.cpp.obj CMakeFiles/problem_25206.dir/problem_13458.cpp.obj CMakeFiles/problem_25206.dir/problem_14499.cpp.obj CMakeFiles/problem_25206.dir/problem_14500_dfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1753_dijkstra.cpp.obj CMakeFiles/problem_25206.dir/problem_14501_dp.cpp.obj CMakeFiles/problem_25206.dir/problem_9095_dp.cpp.obj CMakeFiles/problem_25206.dir/problem_15683_simulation.cpp.obj CMakeFiles/problem_25206.dir/problem_15684_dfs.cpp.obj CMakeFiles/problem_25206.dir/assignment1.c.obj CMakeFiles/problem_25206.dir/lecture.c.obj CMakeFiles/problem_25206.dir/assignment2.c.obj CMakeFiles/problem_25206.dir/problem_11724_dfs.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\problem_25206.dir
@@ -784,8 +796,8 @@ build problem_15683.exe: CXX_EXECUTABLE_LINKER__problem_15683_Debug CMakeFiles/p
 
 build cmake_object_order_depends_target_problem_15684: phony || CMakeFiles/problem_15684.dir
 
-build CMakeFiles/problem_15684.dir/problem_15684.cpp.obj: CXX_COMPILER__problem_15684_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_15684.cpp || cmake_object_order_depends_target_problem_15684
-  DEP_FILE = CMakeFiles\problem_15684.dir\problem_15684.cpp.obj.d
+build CMakeFiles/problem_15684.dir/problem_15684_dfs.cpp.obj: CXX_COMPILER__problem_15684_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_15684_dfs.cpp || cmake_object_order_depends_target_problem_15684
+  DEP_FILE = CMakeFiles\problem_15684.dir\problem_15684_dfs.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\problem_15684.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_15684.dir
@@ -798,7 +810,7 @@ build CMakeFiles/problem_15684.dir/problem_15684.cpp.obj: CXX_COMPILER__problem_
 #############################################
 # Link the executable problem_15684.exe
 
-build problem_15684.exe: CXX_EXECUTABLE_LINKER__problem_15684_Debug CMakeFiles/problem_15684.dir/problem_15684.cpp.obj
+build problem_15684.exe: CXX_EXECUTABLE_LINKER__problem_15684_Debug CMakeFiles/problem_15684.dir/problem_15684_dfs.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\problem_15684.dir
@@ -841,6 +853,72 @@ build assignment1.exe: C_EXECUTABLE_LINKER__assignment1_Debug CMakeFiles/assignm
   TARGET_IMPLIB = libassignment1.dll.a
   TARGET_PDB = assignment1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment2
+
+
+#############################################
+# Order-only phony target for assignment2
+
+build cmake_object_order_depends_target_assignment2: phony || CMakeFiles/assignment2.dir
+
+build CMakeFiles/assignment2.dir/assignment2.c.obj: C_COMPILER__assignment2_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment2.c || cmake_object_order_depends_target_assignment2
+  DEP_FILE = CMakeFiles\assignment2.dir\assignment2.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment2.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment2
+
+
+#############################################
+# Link the executable assignment2.exe
+
+build assignment2.exe: C_EXECUTABLE_LINKER__assignment2_Debug CMakeFiles/assignment2.dir/assignment2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\assignment2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assignment2.exe
+  TARGET_IMPLIB = libassignment2.dll.a
+  TARGET_PDB = assignment2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target problem_11724_dfs
+
+
+#############################################
+# Order-only phony target for problem_11724_dfs
+
+build cmake_object_order_depends_target_problem_11724_dfs: phony || CMakeFiles/problem_11724_dfs.dir
+
+build CMakeFiles/problem_11724_dfs.dir/problem_11724_dfs.cpp.obj: CXX_COMPILER__problem_11724_dfs_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_11724_dfs.cpp || cmake_object_order_depends_target_problem_11724_dfs
+  DEP_FILE = CMakeFiles\problem_11724_dfs.dir\problem_11724_dfs.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_11724_dfs.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_11724_dfs.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem_11724_dfs
+
+
+#############################################
+# Link the executable problem_11724_dfs.exe
+
+build problem_11724_dfs.exe: CXX_EXECUTABLE_LINKER__problem_11724_dfs_Debug CMakeFiles/problem_11724_dfs.dir/problem_11724_dfs.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem_11724_dfs.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem_11724_dfs.exe
+  TARGET_IMPLIB = libproblem_11724_dfs.dll.a
+  TARGET_PDB = problem_11724_dfs.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -869,7 +947,11 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build assignment1: phony assignment1.exe
 
+build assignment2: phony assignment2.exe
+
 build problem_1012: phony problem_1012.exe
+
+build problem_11724_dfs: phony problem_11724_dfs.exe
 
 build problem_1181: phony problem_1181.exe
 
@@ -917,7 +999,7 @@ build problem_test: phony problem_test.exe
 #############################################
 # Folder: C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug
 
-build all: phony problem_25206.exe problem_2751.exe problem_test.exe problem_1700.exe problem_1806.exe problem_1181.exe problem_2933.exe problem_7576_bfs.exe problem_1012.exe problem_13460.exe problem_12100.exe problem_3190.exe problem_13458.exe problem_14499.exe problem_14500.exe problem_1753_dijkstra.exe problem_14501_dp.exe problem_9095_dp.exe problem_15683.exe problem_15684.exe assignment1.exe
+build all: phony problem_25206.exe problem_2751.exe problem_test.exe problem_1700.exe problem_1806.exe problem_1181.exe problem_2933.exe problem_7576_bfs.exe problem_1012.exe problem_13460.exe problem_12100.exe problem_3190.exe problem_13458.exe problem_14499.exe problem_14500.exe problem_1753_dijkstra.exe problem_14501_dp.exe problem_9095_dp.exe problem_15683.exe problem_15684.exe assignment1.exe assignment2.exe problem_11724_dfs.exe
 
 # =============================================================================
 # Built-in targets
