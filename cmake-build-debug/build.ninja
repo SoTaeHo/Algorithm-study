@@ -157,12 +157,6 @@ build CMakeFiles/problem_25206.dir/assignment1.c.obj: C_COMPILER__problem_25206_
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
 
-build CMakeFiles/problem_25206.dir/lecture.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/lecture.c || cmake_object_order_depends_target_problem_25206
-  DEP_FILE = CMakeFiles\problem_25206.dir\lecture.c.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\problem_25206.dir
-  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
-
 build CMakeFiles/problem_25206.dir/assignment2.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment2.c || cmake_object_order_depends_target_problem_25206
   DEP_FILE = CMakeFiles\problem_25206.dir\assignment2.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
@@ -181,6 +175,78 @@ build CMakeFiles/problem_25206.dir/problem_10026_dfs.cpp.obj: CXX_COMPILER__prob
   OBJECT_DIR = CMakeFiles\problem_25206.dir
   OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
 
+build CMakeFiles/problem_25206.dir/problem_15685.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_15685.cpp || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\problem_15685.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/assignment3.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment3.c || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\assignment3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/assignment4.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment4.c || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\assignment4.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/assignment5.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment5.c || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\assignment5.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/assignment6.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment6.c || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\assignment6.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/assignment7.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment7.c || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\assignment7.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/assignment8.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment8.c || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\assignment8.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/assignment9.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment9.c || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\assignment9.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/assignment10.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment10.c || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\assignment10.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/assignment11.c.obj: C_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment11.c || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\assignment11.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/lecture.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/lecture.cpp || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\lecture.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
+build CMakeFiles/problem_25206.dir/sw_20936.cpp.obj: CXX_COMPILER__problem_25206_Debug C$:/Users/kacelab/CLionProjects/Algorithm/sw_20936.cpp || cmake_object_order_depends_target_problem_25206
+  DEP_FILE = CMakeFiles\problem_25206.dir\sw_20936.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_25206.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_25206.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target problem_25206
@@ -189,7 +255,7 @@ build CMakeFiles/problem_25206.dir/problem_10026_dfs.cpp.obj: CXX_COMPILER__prob
 #############################################
 # Link the executable problem_25206.exe
 
-build problem_25206.exe: CXX_EXECUTABLE_LINKER__problem_25206_Debug CMakeFiles/problem_25206.dir/problem_25206.cpp.obj CMakeFiles/problem_25206.dir/problem_1700.cpp.obj CMakeFiles/problem_25206.dir/problem_1806.cpp.obj CMakeFiles/problem_25206.dir/problem_2933.cpp.obj CMakeFiles/problem_25206.dir/problem_7576_bfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1012.cpp.obj CMakeFiles/problem_25206.dir/problem_13460.cpp.obj CMakeFiles/problem_25206.dir/problem_12100.cpp.obj CMakeFiles/problem_25206.dir/problem_3190.cpp.obj CMakeFiles/problem_25206.dir/problem_13458.cpp.obj CMakeFiles/problem_25206.dir/problem_14499.cpp.obj CMakeFiles/problem_25206.dir/problem_14500_dfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1753_dijkstra.cpp.obj CMakeFiles/problem_25206.dir/problem_14501_dp.cpp.obj CMakeFiles/problem_25206.dir/problem_9095_dp.cpp.obj CMakeFiles/problem_25206.dir/problem_15683_simulation.cpp.obj CMakeFiles/problem_25206.dir/problem_15684_dfs.cpp.obj CMakeFiles/problem_25206.dir/assignment1.c.obj CMakeFiles/problem_25206.dir/lecture.c.obj CMakeFiles/problem_25206.dir/assignment2.c.obj CMakeFiles/problem_25206.dir/problem_11724_dfs.cpp.obj CMakeFiles/problem_25206.dir/problem_10026_dfs.cpp.obj
+build problem_25206.exe: CXX_EXECUTABLE_LINKER__problem_25206_Debug CMakeFiles/problem_25206.dir/problem_25206.cpp.obj CMakeFiles/problem_25206.dir/problem_1700.cpp.obj CMakeFiles/problem_25206.dir/problem_1806.cpp.obj CMakeFiles/problem_25206.dir/problem_2933.cpp.obj CMakeFiles/problem_25206.dir/problem_7576_bfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1012.cpp.obj CMakeFiles/problem_25206.dir/problem_13460.cpp.obj CMakeFiles/problem_25206.dir/problem_12100.cpp.obj CMakeFiles/problem_25206.dir/problem_3190.cpp.obj CMakeFiles/problem_25206.dir/problem_13458.cpp.obj CMakeFiles/problem_25206.dir/problem_14499.cpp.obj CMakeFiles/problem_25206.dir/problem_14500_dfs.cpp.obj CMakeFiles/problem_25206.dir/problem_1753_dijkstra.cpp.obj CMakeFiles/problem_25206.dir/problem_14501_dp.cpp.obj CMakeFiles/problem_25206.dir/problem_9095_dp.cpp.obj CMakeFiles/problem_25206.dir/problem_15683_simulation.cpp.obj CMakeFiles/problem_25206.dir/problem_15684_dfs.cpp.obj CMakeFiles/problem_25206.dir/assignment1.c.obj CMakeFiles/problem_25206.dir/assignment2.c.obj CMakeFiles/problem_25206.dir/problem_11724_dfs.cpp.obj CMakeFiles/problem_25206.dir/problem_10026_dfs.cpp.obj CMakeFiles/problem_25206.dir/problem_15685.cpp.obj CMakeFiles/problem_25206.dir/assignment3.c.obj CMakeFiles/problem_25206.dir/assignment4.c.obj CMakeFiles/problem_25206.dir/assignment5.c.obj CMakeFiles/problem_25206.dir/assignment6.c.obj CMakeFiles/problem_25206.dir/assignment7.c.obj CMakeFiles/problem_25206.dir/assignment8.c.obj CMakeFiles/problem_25206.dir/assignment9.c.obj CMakeFiles/problem_25206.dir/assignment10.c.obj CMakeFiles/problem_25206.dir/assignment11.c.obj CMakeFiles/problem_25206.dir/lecture.cpp.obj CMakeFiles/problem_25206.dir/sw_20936.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\problem_25206.dir
@@ -958,6 +1024,369 @@ build problem_10026_dfs.exe: CXX_EXECUTABLE_LINKER__problem_10026_dfs_Debug CMak
   TARGET_IMPLIB = libproblem_10026_dfs.dll.a
   TARGET_PDB = problem_10026_dfs.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target problem_15685
+
+
+#############################################
+# Order-only phony target for problem_15685
+
+build cmake_object_order_depends_target_problem_15685: phony || CMakeFiles/problem_15685.dir
+
+build CMakeFiles/problem_15685.dir/problem_15685.cpp.obj: CXX_COMPILER__problem_15685_Debug C$:/Users/kacelab/CLionProjects/Algorithm/problem_15685.cpp || cmake_object_order_depends_target_problem_15685
+  DEP_FILE = CMakeFiles\problem_15685.dir\problem_15685.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\problem_15685.dir
+  OBJECT_FILE_DIR = CMakeFiles\problem_15685.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target problem_15685
+
+
+#############################################
+# Link the executable problem_15685.exe
+
+build problem_15685.exe: CXX_EXECUTABLE_LINKER__problem_15685_Debug CMakeFiles/problem_15685.dir/problem_15685.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\problem_15685.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = problem_15685.exe
+  TARGET_IMPLIB = libproblem_15685.dll.a
+  TARGET_PDB = problem_15685.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment3
+
+
+#############################################
+# Order-only phony target for assignment3
+
+build cmake_object_order_depends_target_assignment3: phony || CMakeFiles/assignment3.dir
+
+build CMakeFiles/assignment3.dir/assignment3.c.obj: C_COMPILER__assignment3_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment3.c || cmake_object_order_depends_target_assignment3
+  DEP_FILE = CMakeFiles\assignment3.dir\assignment3.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment3.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment3.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment3
+
+
+#############################################
+# Link the executable assignment3.exe
+
+build assignment3.exe: C_EXECUTABLE_LINKER__assignment3_Debug CMakeFiles/assignment3.dir/assignment3.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\assignment3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assignment3.exe
+  TARGET_IMPLIB = libassignment3.dll.a
+  TARGET_PDB = assignment3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment4
+
+
+#############################################
+# Order-only phony target for assignment4
+
+build cmake_object_order_depends_target_assignment4: phony || CMakeFiles/assignment4.dir
+
+build CMakeFiles/assignment4.dir/assignment4.c.obj: C_COMPILER__assignment4_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment4.c || cmake_object_order_depends_target_assignment4
+  DEP_FILE = CMakeFiles\assignment4.dir\assignment4.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment4.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment4
+
+
+#############################################
+# Link the executable assignment4.exe
+
+build assignment4.exe: C_EXECUTABLE_LINKER__assignment4_Debug CMakeFiles/assignment4.dir/assignment4.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\assignment4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assignment4.exe
+  TARGET_IMPLIB = libassignment4.dll.a
+  TARGET_PDB = assignment4.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment5
+
+
+#############################################
+# Order-only phony target for assignment5
+
+build cmake_object_order_depends_target_assignment5: phony || CMakeFiles/assignment5.dir
+
+build CMakeFiles/assignment5.dir/assignment5.c.obj: C_COMPILER__assignment5_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment5.c || cmake_object_order_depends_target_assignment5
+  DEP_FILE = CMakeFiles\assignment5.dir\assignment5.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment5.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment5
+
+
+#############################################
+# Link the executable assignment5.exe
+
+build assignment5.exe: C_EXECUTABLE_LINKER__assignment5_Debug CMakeFiles/assignment5.dir/assignment5.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\assignment5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assignment5.exe
+  TARGET_IMPLIB = libassignment5.dll.a
+  TARGET_PDB = assignment5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment6
+
+
+#############################################
+# Order-only phony target for assignment6
+
+build cmake_object_order_depends_target_assignment6: phony || CMakeFiles/assignment6.dir
+
+build CMakeFiles/assignment6.dir/assignment6.c.obj: C_COMPILER__assignment6_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment6.c || cmake_object_order_depends_target_assignment6
+  DEP_FILE = CMakeFiles\assignment6.dir\assignment6.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment6.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment6.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment6
+
+
+#############################################
+# Link the executable assignment6.exe
+
+build assignment6.exe: C_EXECUTABLE_LINKER__assignment6_Debug CMakeFiles/assignment6.dir/assignment6.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\assignment6.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assignment6.exe
+  TARGET_IMPLIB = libassignment6.dll.a
+  TARGET_PDB = assignment6.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment7
+
+
+#############################################
+# Order-only phony target for assignment7
+
+build cmake_object_order_depends_target_assignment7: phony || CMakeFiles/assignment7.dir
+
+build CMakeFiles/assignment7.dir/assignment7.c.obj: C_COMPILER__assignment7_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment7.c || cmake_object_order_depends_target_assignment7
+  DEP_FILE = CMakeFiles\assignment7.dir\assignment7.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment7.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment7.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment7
+
+
+#############################################
+# Link the executable assignment7.exe
+
+build assignment7.exe: C_EXECUTABLE_LINKER__assignment7_Debug CMakeFiles/assignment7.dir/assignment7.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\assignment7.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assignment7.exe
+  TARGET_IMPLIB = libassignment7.dll.a
+  TARGET_PDB = assignment7.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment8
+
+
+#############################################
+# Order-only phony target for assignment8
+
+build cmake_object_order_depends_target_assignment8: phony || CMakeFiles/assignment8.dir
+
+build CMakeFiles/assignment8.dir/assignment8.c.obj: C_COMPILER__assignment8_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment8.c || cmake_object_order_depends_target_assignment8
+  DEP_FILE = CMakeFiles\assignment8.dir\assignment8.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment8.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment8.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment8
+
+
+#############################################
+# Link the executable assignment8.exe
+
+build assignment8.exe: C_EXECUTABLE_LINKER__assignment8_Debug CMakeFiles/assignment8.dir/assignment8.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\assignment8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assignment8.exe
+  TARGET_IMPLIB = libassignment8.dll.a
+  TARGET_PDB = assignment8.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment9
+
+
+#############################################
+# Order-only phony target for assignment9
+
+build cmake_object_order_depends_target_assignment9: phony || CMakeFiles/assignment9.dir
+
+build CMakeFiles/assignment9.dir/assignment9.c.obj: C_COMPILER__assignment9_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment9.c || cmake_object_order_depends_target_assignment9
+  DEP_FILE = CMakeFiles\assignment9.dir\assignment9.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment9.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment9.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment9
+
+
+#############################################
+# Link the executable assignment9.exe
+
+build assignment9.exe: C_EXECUTABLE_LINKER__assignment9_Debug CMakeFiles/assignment9.dir/assignment9.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\assignment9.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assignment9.exe
+  TARGET_IMPLIB = libassignment9.dll.a
+  TARGET_PDB = assignment9.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment10
+
+
+#############################################
+# Order-only phony target for assignment10
+
+build cmake_object_order_depends_target_assignment10: phony || CMakeFiles/assignment10.dir
+
+build CMakeFiles/assignment10.dir/assignment10.c.obj: C_COMPILER__assignment10_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment10.c || cmake_object_order_depends_target_assignment10
+  DEP_FILE = CMakeFiles\assignment10.dir\assignment10.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment10.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment10
+
+
+#############################################
+# Link the executable assignment10.exe
+
+build assignment10.exe: C_EXECUTABLE_LINKER__assignment10_Debug CMakeFiles/assignment10.dir/assignment10.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\assignment10.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assignment10.exe
+  TARGET_IMPLIB = libassignment10.dll.a
+  TARGET_PDB = assignment10.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target lecture
+
+
+#############################################
+# Order-only phony target for lecture
+
+build cmake_object_order_depends_target_lecture: phony || CMakeFiles/lecture.dir
+
+build CMakeFiles/lecture.dir/lecture.cpp.obj: CXX_COMPILER__lecture_Debug C$:/Users/kacelab/CLionProjects/Algorithm/lecture.cpp || cmake_object_order_depends_target_lecture
+  DEP_FILE = CMakeFiles\lecture.dir\lecture.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lecture.dir
+  OBJECT_FILE_DIR = CMakeFiles\lecture.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lecture
+
+
+#############################################
+# Link the executable lecture.exe
+
+build lecture.exe: CXX_EXECUTABLE_LINKER__lecture_Debug CMakeFiles/lecture.dir/lecture.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lecture.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lecture.exe
+  TARGET_IMPLIB = liblecture.dll.a
+  TARGET_PDB = lecture.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target assignment11
+
+
+#############################################
+# Order-only phony target for assignment11
+
+build cmake_object_order_depends_target_assignment11: phony || CMakeFiles/assignment11.dir
+
+build CMakeFiles/assignment11.dir/assignment11.c.obj: C_COMPILER__assignment11_Debug C$:/Users/kacelab/CLionProjects/Algorithm/assignment11.c || cmake_object_order_depends_target_assignment11
+  DEP_FILE = CMakeFiles\assignment11.dir\assignment11.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\assignment11.dir
+  OBJECT_FILE_DIR = CMakeFiles\assignment11.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target assignment11
+
+
+#############################################
+# Link the executable assignment11.exe
+
+build assignment11.exe: C_EXECUTABLE_LINKER__assignment11_Debug CMakeFiles/assignment11.dir/assignment11.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\assignment11.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = assignment11.exe
+  TARGET_IMPLIB = libassignment11.dll.a
+  TARGET_PDB = assignment11.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -986,7 +1415,27 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build assignment1: phony assignment1.exe
 
+build assignment10: phony assignment10.exe
+
+build assignment11: phony assignment11.exe
+
 build assignment2: phony assignment2.exe
+
+build assignment3: phony assignment3.exe
+
+build assignment4: phony assignment4.exe
+
+build assignment5: phony assignment5.exe
+
+build assignment6: phony assignment6.exe
+
+build assignment7: phony assignment7.exe
+
+build assignment8: phony assignment8.exe
+
+build assignment9: phony assignment9.exe
+
+build lecture: phony lecture.exe
 
 build problem_10026_dfs: phony problem_10026_dfs.exe
 
@@ -1011,6 +1460,8 @@ build problem_14501_dp: phony problem_14501_dp.exe
 build problem_15683: phony problem_15683.exe
 
 build problem_15684: phony problem_15684.exe
+
+build problem_15685: phony problem_15685.exe
 
 build problem_1700: phony problem_1700.exe
 
@@ -1040,7 +1491,7 @@ build problem_test: phony problem_test.exe
 #############################################
 # Folder: C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug
 
-build all: phony problem_25206.exe problem_2751.exe problem_test.exe problem_1700.exe problem_1806.exe problem_1181.exe problem_2933.exe problem_7576_bfs.exe problem_1012.exe problem_13460.exe problem_12100.exe problem_3190.exe problem_13458.exe problem_14499.exe problem_14500.exe problem_1753_dijkstra.exe problem_14501_dp.exe problem_9095_dp.exe problem_15683.exe problem_15684.exe assignment1.exe assignment2.exe problem_11724_dfs.exe problem_10026_dfs.exe
+build all: phony problem_25206.exe problem_2751.exe problem_test.exe problem_1700.exe problem_1806.exe problem_1181.exe problem_2933.exe problem_7576_bfs.exe problem_1012.exe problem_13460.exe problem_12100.exe problem_3190.exe problem_13458.exe problem_14499.exe problem_14500.exe problem_1753_dijkstra.exe problem_14501_dp.exe problem_9095_dp.exe problem_15683.exe problem_15684.exe assignment1.exe assignment2.exe problem_11724_dfs.exe problem_10026_dfs.exe problem_15685.exe assignment3.exe assignment4.exe assignment5.exe assignment6.exe assignment7.exe assignment8.exe assignment9.exe assignment10.exe lecture.exe assignment11.exe
 
 # =============================================================================
 # Built-in targets
