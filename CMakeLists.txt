@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD 17)
 #ADD_COMPILE_OPTIONS ( -Wall -Wextra -Werror )
 
 #add_executable(Algorithm main.cpp problem_25206.cpp problem_2751.cpp problem_test.cpp)
-add_executable(problem_25206 problem_25206.cpp problem_1700.cpp problem_1806.cpp problem_2933.cpp problem_7576_bfs.cpp problem_1012.cpp problem_13460.cpp problem_12100.cpp problem_3190.cpp problem_13458.cpp problem_14499.cpp problem_14500_dfs.cpp problem_1753_dijkstra.cpp problem_14501_dp.cpp problem_9095_dp.cpp problem_15683_simulation.cpp problem_15684_dfs.cpp assignment1.c assignment2.c problem_11724_dfs.cpp problem_10026_dfs.cpp problem_15685_simulation.cpp assignment3.c assignment4.c assignment5.c assignment6.c assignment7.c assignment8.c assignment9.c assignment10.c assignment11.c lecture.cpp problem_15686_bruteforce.cpp problem_5373.cpp)
+add_executable(problem_25206 problem_25206.cpp problem_1700.cpp problem_1806.cpp problem_2933.cpp problem_7576_bfs.cpp problem_1012.cpp problem_13460.cpp problem_12100.cpp problem_3190.cpp problem_13458.cpp problem_14499.cpp problem_14500_dfs.cpp problem_1753_dijkstra.cpp problem_14501_dp.cpp problem_9095_dp.cpp problem_15683_simulation.cpp problem_15684_dfs.cpp assignment1.c assignment2.c problem_11724_dfs.cpp problem_10026_dfs.cpp problem_15685_simulation.cpp assignment3.c assignment4.c assignment5.c assignment6.c assignment7.c assignment8.c assignment9.c assignment10.c assignment11.c lecture.cpp problem_15686_bruteforce.cpp problem_5373.cpp problem_16234.cpp)
 add_executable(problem_2751 problem_2751.cpp)
 add_executable(problem_test problem_test.cpp)
 add_executable(problem_1700 problem_1700.cpp)
@@ -48,3 +48,4 @@ add_executable(assignment11 assignment11.c)
 
 add_executable(problem_15686 problem_15686_bruteforce.cpp)
 add_executable(problem_5373 problem_5373.cpp)
+add_executable(problem_16234 problem_16234.cpp)
