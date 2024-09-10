@@ -29,7 +29,7 @@ bool check(int i, int j) {
     return false;
 }
 
-void bfs(int r, int k) {
+void dfs(int r, int k) {
     if (r < 0 || r >= N || k < 0 || k >= N)
         return;
 
@@ -48,7 +48,7 @@ void bfs(int r, int k) {
             continue;
         }
         if (abs(map[nx][ny] - map[r][k]) >= L && abs(map[nx][ny] - map[r][k]) <= R) {
-            bfs(nx, ny);
+            dfs(nx, ny);
         }
     }
 }
@@ -74,7 +74,7 @@ int main() {
                 if (selected[i][j])
                     continue;
                 // bfs
-                bfs(i, j);
+                dfs(i, j);
 
                 for (auto &ptr: point) {
                     map[ptr.first][ptr.second] = sum / country;
