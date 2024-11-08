@@ -36,5 +36,6 @@ C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/assignment
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_15686.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_5373.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_16234.dir
+C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/swea_21425.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
