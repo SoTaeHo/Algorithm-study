@@ -38,5 +38,14 @@ C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_53
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_16234.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/swea_21425.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/swea_22574.dir
+C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/swea_22043.dir
+C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/ssafy1.dir
+C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/ssafy2.dir
+C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/ssafy3.dir
+C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_1238_dijkstra.dir
+C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/goorm_43061.dir
+C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/goorm_1.dir
+C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_1654.dir
+C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/problem_1436.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/kacelab/CLionProjects/Algorithm/cmake-build-debug/CMakeFiles/rebuild_cache.dir
