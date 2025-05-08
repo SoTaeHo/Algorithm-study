@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: echo "hi"
+    - run: echo "hi"
