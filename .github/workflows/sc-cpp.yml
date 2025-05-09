@@ -1,16 +1,36 @@
 name: C/C++ CI
 
 on:
+  workflow_call:
+    inputs:
+      title:
+        required: true
+        type: string
+      body:
+        required: true
+        type: string
   workflow_dispatch:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+    inputs:
+      title:
+        description: 'Issue title'
+        required: true
+      body:
+        description: 'Issue body'
+        required: true
 jobs:
-  build:
-
+  create_issue_on_failure:
     runs-on: ubuntu-latest
-
+    permissions:
+      issues: write
     steps:
-    - run: echo "hi"
+      - name: create issue using REST API
+        run: |
+          curl --request POST \
+          --url https://api.github.com/repos/${{ github.repository }}/issues \
+          --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}` \
+          --header 'content-type: application/json' \
+          --data '{
+            "title": "Failure: ${{ inputs.title }}",
+            "body": "Details: ${{ inputs.body }}"
+            }' \
+          --fail
